@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 N1n-G, 111, LIC=9WSKC-7HBGC-EVQ1R-KHIRR-CELB5-07HTZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Datum\Projects\stm32\智能手表1\USER\FreeRTOS.uvprojx
+Project File Date:  11/03/2024
+
+<h2>Output:</h2>
+Build target 'FreeRTOS'
+compiling main.c...
+main.c(513): warning:  #550-D: variable "tp_slide_event" was set but never used
+        uint32_t tp_slide_event=TP_SLIDE_NONE;
+main.c(1012): warning:  #167-D: argument of type "volatile uint32_t *" is incompatible with parameter of type "uint32_t *"
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+main.c(1012): warning:  #167-D: argument of type "volatile uint32_t *" is incompatible with parameter of type "uint32_t *"
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+main.c(1012): warning:  #167-D: argument of type "volatile int32_t *" is incompatible with parameter of type "int32_t *"
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+main.c(1012): warning:  #167-D: argument of type "volatile int8_t *" is incompatible with parameter of type "int8_t *"
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+main.c(1012): warning:  #167-D: argument of type "volatile int32_t *" is incompatible with parameter of type "int32_t *"
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+main.c(1012): warning:  #167-D: argument of type "volatile int8_t *" is incompatible with parameter of type "int8_t *"
+      maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
+main.c(1096): warning:  #167-D: argument of type "volatile uint32_t *" is incompatible with parameter of type "uint32_t *"
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+main.c(1096): warning:  #167-D: argument of type "volatile uint32_t *" is incompatible with parameter of type "uint32_t *"
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+main.c(1096): warning:  #167-D: argument of type "volatile int32_t *" is incompatible with parameter of type "int32_t *"
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+main.c(1096): warning:  #167-D: argument of type "volatile int8_t *" is incompatible with parameter of type "int8_t *"
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+main.c(1096): warning:  #167-D: argument of type "volatile int32_t *" is incompatible with parameter of type "int32_t *"
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+main.c(1096): warning:  #167-D: argument of type "volatile int8_t *" is incompatible with parameter of type "int8_t *"
+          maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
+main.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=49592 RO-data=330048 RW-data=1264 ZI-data=89640  
+FromELF: creating hex file...
+"..\OBJ\demo.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Datum\Projects\stm32\智能手表1\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

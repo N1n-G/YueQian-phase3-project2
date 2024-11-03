@@ -1,0 +1,1930 @@
+Dependencies for Project 'FreeRTOS', Target 'FreeRTOS': (DO NOT MODIFY !)
+F (.\main.c)(0x6727352F)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (menu.h)(0x67233D48)
+F (.\stm32f4xx_it.c)(0x5836DA14)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
+I (stm32f4xx_it.h)(0x57FC593E)
+I (stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (system_stm32f4xx.h)(0x57FC593E)
+I (stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (.\system_stm32f4xx.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f4xx.o --omf_browse ..\obj\system_stm32f4xx.crf --depend ..\obj\system_stm32f4xx.d)
+I (stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (system_stm32f4xx.h)(0x57FC593E)
+I (stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (.\menu.c)(0x67272CCF)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\menu.o --omf_browse ..\obj\menu.crf --depend ..\obj\menu.d)
+I (includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (menu.h)(0x67233D48)
+F (..\HARDWARE\LED\led.c)(0x65D86300)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\LCD\tft.c)(0x662726B8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\tft.o --omf_browse ..\obj\tft.crf --depend ..\obj\tft.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\ADC\adc.c)(0x65DB217E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\BEEP\beep.c)(0x645E029E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\KEY\key.c)(0x611F5AB8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\RTC\rtc.c)(0x67218D80)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\rtc.o --omf_browse ..\obj\rtc.crf --depend ..\obj\rtc.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\DHT\dht11.c)(0x611A2B0A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\dht11.o --omf_browse ..\obj\dht11.crf --depend ..\obj\dht11.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\TOUCH\touch.c)(0x66438690)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\touch.o --omf_browse ..\obj\touch.crf --depend ..\obj\touch.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\MAX30102\max30102.c)(0x671E136A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\max30102.o --omf_browse ..\obj\max30102.crf --depend ..\obj\max30102.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\I2C\i2c.c)(0x65DE99F6)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\i2c.o --omf_browse ..\obj\i2c.crf --depend ..\obj\i2c.d)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+F (..\ALGORITHM\algorithm.c)(0x65DE9B9E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\algorithm.o --omf_browse ..\obj\algorithm.crf --depend ..\obj\algorithm.d)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+F (..\HARDWARE\BLE\blue_tooth.c)(0x6724E2B0)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\blue_tooth.o --omf_browse ..\obj\blue_tooth.crf --depend ..\obj\blue_tooth.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\MPU6050\mpu6050.c)(0x65DF09A4)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\mpu6050.o --omf_browse ..\obj\mpu6050.crf --depend ..\obj\mpu6050.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\HARDWARE\MPU6050\inv_mpu.c)(0x6725EEE8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\inv_mpu.o --omf_browse ..\obj\inv_mpu.crf --depend ..\obj\inv_mpu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+F (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.c)(0x65DF1216)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\inv_mpu_dmp_motion_driver.o --omf_browse ..\obj\inv_mpu_dmp_motion_driver.crf --depend ..\obj\inv_mpu_dmp_motion_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\HARDWARE\MPU6050\dmpKey.h)(0x65DF123C)
+I (..\HARDWARE\MPU6050\dmpmap.h)(0x65DF124C)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+F (..\SYSTEM\delay\delay.c)(0x611294E8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+F (..\SYSTEM\sys\sys.c)(0x60F40DFE)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\SYSTEM\usart\usart.c)(0x6724D960)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\USER\includes.h)(0x6725ED72)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\SYSTEM\sys\sys.h)(0x60F418F8)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+I (..\SYSTEM\delay\delay.h)(0x6112904A)
+I (..\SYSTEM\usart\usart.h)(0x672486BA)
+I (..\HARDWARE\LED\led.h)(0x65D86314)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\semphr.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\HARDWARE\LCD\tft.h)(0x6627189C)
+I (..\HARDWARE\LCD\lcd_font.h)(0x67272782)
+I (..\HARDWARE\LCD\pic.h)(0x6726CFC8)
+I (..\HARDWARE\KEY\key.h)(0x5E86E07C)
+I (..\HARDWARE\ADC\adc.h)(0x610909FA)
+I (..\HARDWARE\BEEP\beep.h)(0x60F94164)
+I (..\HARDWARE\RTC\rtc.h)(0x611DC178)
+I (..\HARDWARE\DHT\dht11.h)(0x611A2AF2)
+I (..\HARDWARE\TOUCH\touch.h)(0x664386B2)
+I (..\MAX30102\max30102.h)(0x671E1580)
+I (..\I2C\i2c.h)(0x65DE99F0)
+I (..\ALGORITHM\algorithm.h)(0x65DE9BF2)
+I (..\HARDWARE\BLE\blue_tooth.h)(0x67248BDC)
+I (..\HARDWARE\MPU6050\mpu6050.h)(0x65DF09E2)
+I (..\HARDWARE\MPU6050\inv_mpu.h)(0x65DF0FA2)
+I (..\HARDWARE\MPU6050\inv_mpu_dmp_motion_driver.h)(0x65DF111C)
+I (..\USER\menu.h)(0x67233D48)
+F (..\CORE\startup_stm32f40_41xxx.s)(0x57FC593E)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F40_41xxx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (..\FWLIB\src\misc.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_gpio.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_rcc.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_rcc.o --omf_browse ..\obj\stm32f4xx_rcc.crf --depend ..\obj\stm32f4xx_rcc.d)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_usart.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_usart.o --omf_browse ..\obj\stm32f4xx_usart.crf --depend ..\obj\stm32f4xx_usart.d)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_rtc.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_rtc.o --omf_browse ..\obj\stm32f4xx_rtc.crf --depend ..\obj\stm32f4xx_rtc.d)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_exti.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_exti.o --omf_browse ..\obj\stm32f4xx_exti.crf --depend ..\obj\stm32f4xx_exti.d)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_adc.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_adc.o --omf_browse ..\obj\stm32f4xx_adc.crf --depend ..\obj\stm32f4xx_adc.d)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_pwr.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_pwr.o --omf_browse ..\obj\stm32f4xx_pwr.crf --depend ..\obj\stm32f4xx_pwr.d)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_syscfg.o --omf_browse ..\obj\stm32f4xx_syscfg.crf --depend ..\obj\stm32f4xx_syscfg.d)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_dma.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_dma.o --omf_browse ..\obj\stm32f4xx_dma.crf --depend ..\obj\stm32f4xx_dma.d)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FWLIB\src\stm32f4xx_spi.c)(0x57FC593E)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f4xx_spi.o --omf_browse ..\obj\stm32f4xx_spi.crf --depend ..\obj\stm32f4xx_spi.d)
+I (..\FWLIB\inc\stm32f4xx_spi.h)(0x57FC593E)
+I (..\USER\stm32f4xx.h)(0x57FC593E)
+I (..\CORE\core_cm4.h)(0x57FC593E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x57FC593E)
+I (..\CORE\core_cmFunc.h)(0x57FC593E)
+I (..\CORE\core_cm4_simd.h)(0x57FC593E)
+I (..\USER\system_stm32f4xx.h)(0x57FC593E)
+I (..\USER\stm32f4xx_conf.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_adc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_crc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dma.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_exti.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_flash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_tim.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_usart.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x57FC593E)
+I (..\FWLIB\inc\misc.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_hash.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_rng.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_can.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dac.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x57FC593E)
+I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x57FC593E)
+F (..\FREERTOS\core\croutine.c)(0x5A3842D8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\croutine.o --omf_browse ..\obj\croutine.crf --depend ..\obj\croutine.d)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\croutine.h)(0x5A3842D8)
+F (..\FREERTOS\core\event_groups.c)(0x5A3842D8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\event_groups.o --omf_browse ..\obj\event_groups.crf --depend ..\obj\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\FREERTOS\include\event_groups.h)(0x5A3842D8)
+F (..\FREERTOS\core\list.c)(0x5A3842D8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\list.o --omf_browse ..\obj\list.crf --depend ..\obj\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+F (..\FREERTOS\core\queue.c)(0x5A3842DA)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\queue.o --omf_browse ..\obj\queue.crf --depend ..\obj\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+F (..\FREERTOS\core\stream_buffer.c)(0x5A3842DA)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\stream_buffer.o --omf_browse ..\obj\stream_buffer.crf --depend ..\obj\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\stream_buffer.h)(0x5A3842D8)
+F (..\FREERTOS\core\tasks.c)(0x5A3842DA)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\tasks.o --omf_browse ..\obj\tasks.crf --depend ..\obj\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+I (..\FREERTOS\include\stack_macros.h)(0x5A3842D8)
+F (..\FREERTOS\core\timers.c)(0x5A3842DA)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\timers.o --omf_browse ..\obj\timers.crf --depend ..\obj\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+I (..\FREERTOS\include\queue.h)(0x5A3842D8)
+I (..\FREERTOS\include\timers.h)(0x5A3842D8)
+F (..\FREERTOS\heap\heap_4.c)(0x5A3842DA)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\heap_4.o --omf_browse ..\obj\heap_4.crf --depend ..\obj\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+F (..\FREERTOS\port\port.c)(0x60F69F86)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\port.o --omf_browse ..\obj\port.crf --depend ..\obj\port.d)
+I (..\FREERTOS\include\FreeRTOS.h)(0x65D9CC9C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\FREERTOS\include\FreeRTOSConfig.h)(0x60F6A434)
+I (..\FREERTOS\include\projdefs.h)(0x5A3842D8)
+I (..\FREERTOS\include\portable.h)(0x5A3842D8)
+I (..\FREERTOS\include\deprecated_definitions.h)(0x5A3842D8)
+I (..\FREERTOS\port\portmacro.h)(0x5A3842DA)
+I (..\FREERTOS\include\mpu_wrappers.h)(0x5A3842D8)
+I (..\FREERTOS\include\task.h)(0x5A3842D8)
+I (..\FREERTOS\include\list.h)(0x5A3842D8)
+F (..\HARDWARE\LCD\pic_camera.c)(0x65DAFA76)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_camera.o --omf_browse ..\obj\pic_camera.crf --depend ..\obj\pic_camera.d)
+F (..\HARDWARE\LCD\pic_date.c)(0x65DAFA7A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_date.o --omf_browse ..\obj\pic_date.crf --depend ..\obj\pic_date.d)
+F (..\HARDWARE\LCD\pic_faceid.c)(0x671DA5A6)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_faceid.o --omf_browse ..\obj\pic_faceid.crf --depend ..\obj\pic_faceid.d)
+F (..\HARDWARE\LCD\pic_pulse.c)(0x671E0A8C)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_pulse.o --omf_browse ..\obj\pic_pulse.crf --depend ..\obj\pic_pulse.d)
+F (..\HARDWARE\LCD\pic_logo.c)(0x6726DD66)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_logo.o --omf_browse ..\obj\pic_logo.crf --depend ..\obj\pic_logo.d)
+F (..\HARDWARE\LCD\pic_rfid.c)(0x65DAFA88)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_rfid.o --omf_browse ..\obj\pic_rfid.crf --depend ..\obj\pic_rfid.d)
+F (..\HARDWARE\LCD\pic_touchid.c)(0x65DAFA8C)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_touchid.o --omf_browse ..\obj\pic_touchid.crf --depend ..\obj\pic_touchid.d)
+F (..\HARDWARE\LCD\pic_temp_humi.c)(0x65DAFA90)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_temp_humi.o --omf_browse ..\obj\pic_temp_humi.crf --depend ..\obj\pic_temp_humi.d)
+F (..\HARDWARE\LCD\pic_storage.c)(0x65DAFA94)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_storage.o --omf_browse ..\obj\pic_storage.crf --depend ..\obj\pic_storage.d)
+F (..\HARDWARE\LCD\pic_battery.c)(0x65DAFA98)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_battery.o --omf_browse ..\obj\pic_battery.crf --depend ..\obj\pic_battery.d)
+F (..\HARDWARE\LCD\pic_ble.c)(0x65DAFA9A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_ble.o --omf_browse ..\obj\pic_ble.crf --depend ..\obj\pic_ble.d)
+F (..\HARDWARE\LCD\pic.h)(0x6726CFC8)()
+F (..\HARDWARE\LCD\pic_light.c)(0x65DAFAF4)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_light.o --omf_browse ..\obj\pic_light.crf --depend ..\obj\pic_light.d)
+F (..\HARDWARE\LCD\pic_time.c)(0x65DB13AC)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_time.o --omf_browse ..\obj\pic_time.crf --depend ..\obj\pic_time.d)
+F (..\HARDWARE\LCD\pic_temperature.c)(0x65DB268A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_temperature.o --omf_browse ..\obj\pic_temperature.crf --depend ..\obj\pic_temperature.d)
+F (..\HARDWARE\LCD\pic_humidity.c)(0x65DB25BE)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_humidity.o --omf_browse ..\obj\pic_humidity.crf --depend ..\obj\pic_humidity.d)
+F (..\HARDWARE\LCD\pic_step.c)(0x671DA6A8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_step.o --omf_browse ..\obj\pic_step.crf --depend ..\obj\pic_step.d)
+F (..\HARDWARE\LCD\pic_settings.c)(0x6727175F)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_settings.o --omf_browse ..\obj\pic_settings.crf --depend ..\obj\pic_settings.d)
+F (..\HARDWARE\LCD\pic_games.c)(0x671DE360)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_games.o --omf_browse ..\obj\pic_games.crf --depend ..\obj\pic_games.d)
+F (..\HARDWARE\LCD\pic_in_the_pulse.c)(0x6726E10F)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_in_the_pulse.o --omf_browse ..\obj\pic_in_the_pulse.crf --depend ..\obj\pic_in_the_pulse.d)
+F (..\HARDWARE\LCD\pic_heart_rate.c)(0x671E0D54)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_heart_rate.o --omf_browse ..\obj\pic_heart_rate.crf --depend ..\obj\pic_heart_rate.d)
+F (..\HARDWARE\LCD\pic_blood_oxygen.c)(0x671E0E4A)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_blood_oxygen.o --omf_browse ..\obj\pic_blood_oxygen.crf --depend ..\obj\pic_blood_oxygen.d)
+F (..\HARDWARE\LCD\pic_penguin.c)(0x67220178)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_penguin.o --omf_browse ..\obj\pic_penguin.crf --depend ..\obj\pic_penguin.d)
+F (..\HARDWARE\LCD\pic_show_date_time.c)(0x67271ECD)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_show_date_time.o --omf_browse ..\obj\pic_show_date_time.crf --depend ..\obj\pic_show_date_time.d)
+F (..\HARDWARE\LCD\pic_weather.c)(0x672710D3)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_weather.o --omf_browse ..\obj\pic_weather.crf --depend ..\obj\pic_weather.d)
+F (..\HARDWARE\LCD\pic_success.c)(0x6727296F)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_success.o --omf_browse ..\obj\pic_success.crf --depend ..\obj\pic_success.d)
+F (..\HARDWARE\LCD\pic_set_time.c)(0x672725E8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_set_time.o --omf_browse ..\obj\pic_set_time.crf --depend ..\obj\pic_set_time.d)
+F (..\HARDWARE\LCD\pic_date1.c)(0x67258876)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_date1.o --omf_browse ..\obj\pic_date1.crf --depend ..\obj\pic_date1.d)
+F (..\HARDWARE\LCD\pic_remain_w.c)(0x672594C8)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_remain_w.o --omf_browse ..\obj\pic_remain_w.crf --depend ..\obj\pic_remain_w.d)
+F (..\HARDWARE\LCD\pic_walk_count.c)(0x6726EA13)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_walk_count.o --omf_browse ..\obj\pic_walk_count.crf --depend ..\obj\pic_walk_count.d)
+F (..\HARDWARE\LCD\pic_sedentary.c)(0x6726E2D3)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_sedentary.o --omf_browse ..\obj\pic_sedentary.crf --depend ..\obj\pic_sedentary.d)
+F (..\HARDWARE\LCD\pic_sedentary_remind.c)(0x6726E86C)(-c --cpu Cortex-M4.fp -g -O2 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\FWLIB\inc -I..\HARDWARE\LED -I..\FREERTOS\include -I..\FREERTOS\port -I..\HARDWARE\LCD -I.\ -I..\HARDWARE\KEY -I..\HARDWARE\ADC -I..\HARDWARE\BEEP -I..\HARDWARE\RTC -I..\HARDWARE\DHT -I..\HARDWARE\TOUCH -I..\MAX30102 -I..\I2C -I..\ALGORITHM -I..\HARDWARE\BLE -I..\HARDWARE\MPU6050-I C:\Datum\Projects\stm32\智能手表1\USER\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER-o ..\obj\pic_sedentary_remind.o --omf_browse ..\obj\pic_sedentary_remind.crf --depend ..\obj\pic_sedentary_remind.d)
